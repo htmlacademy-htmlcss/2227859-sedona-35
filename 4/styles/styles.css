@@ -21,169 +21,124 @@ body {
   color: #000000;
   background-color: #ffffff;
 }
-.page-header {
-color: #000000;
-background-color: #ffffff;
+
+.advantages {
+  text-align: center;
 }
-.navigation-item, .navigation-item-user, .advantages-list, .turism-list, .footer-contacts-list {
+
+.turism {
+  text-align: center;
+}
+
+.hotel-offers {
+  text-align: center;
+}
+
+.subscribe {
+  text-align: center;
+}
+
+.clear-list {
+  padding: 0;
+  margin: 0;
   list-style-type: none;
 }
+
 .navigation-link {
-  font-family: "PT Sans", sans-serif;
-  font-style: Bold;
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
-  text-align: center;
   color: #000000;
-  background-color: #ffffff;
   text-decoration: none;
-  text-transform: none;
 }
-.navigation-button {
-  font-family: "PT Sans", sans-serif;
-  font-style: Bold;
-  font-size: 16px;
-  line-height: 20px;
-  font-weight: 700;
-  text-align: Center;
-  color: #ffffff;
+
+.button {
   background-color: #756157;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
+  color: #ffffff;
 }
 
-.city-logo {
-  padding-left: 371px;
-  margin-top: 8px;
+.navigation-button {
+  font-size: 16px;
+  line-height: 20px;
 }
+
 
 .welcome-unit {
-background-image: url("../images/canyon-background.jpg");
-background-repeat: no-repeat;
-background-color:#756157 ;
-width: 1200px;
-height: 485px;
+  background-image: url("../images/canyon-background.jpg");
+  background-repeat: no-repeat;
+  background-color: #204237;
 }
+
 .city-info-title {
-  text-align: center;
   text-transform: uppercase;
   font-size: 30px;
   line-height: 36px;
-  font-weight: 700;
 }
+
 .city-description {
-  text-align: center;
   font-size: 22px;
   line-height: 26px;
-  font-weight: 400;
 }
-.advantages-list, .turism-list {
-  text-align: center;
-}
-.advantages-title, .turism-title {
+
+.box-title  {
   text-transform: uppercase;
   font-size: 24px;
   line-height: 28px;
-  font-weight: 700;
 }
+
 .advantages-item-blue {
   background-color: #82B3D3;
-  color:#ffffff;
-  width: 400px;
-  height: 384px;
+  color: #ffffff;
 }
-.advantages-description, .turism-description {
-  font-size: 18px;
-  line-height: 21px;
-  font-weight: 400;
+
+.light-grey-box {
+  background-color: rgba(131, 179, 211, 0.12);
 }
-/*Здесь я менял отступы и ничего не получалось, чтоб картинка вставала в уровень с голубым блоком*/
-.advatages-image-city {
-  padding-left: 400px;
-}
-.advantages-item-white {
-  background-color: rgba(131, 179,211, 0.12);
-  color:#000000;
-  width: 400px;
-  height: 384px;
-}
+
 .advantages-item-grey {
-  background-color: rgba(131, 179,211, 0.2);
-  color:#000000;
-  width: 400px;
-  height: 384px;
+  background-color: rgba(131, 179, 211, 0.2);
 }
-.turism-item-grey {
-  background-color: rgba(131, 179,211, 0.12);
-  width: 400px;
-  height: 384px;
-}
-.turism-item-white {
-  background-color: rgba(131, 179,211, 0.2);
-  width: 400px;
-  height: 384px;
-}
+
 .offer-title {
   text-transform: uppercase;
-  text-align: center;
   font-size: 30px;
   line-height: 36px;
-  font-weight: 700;
 }
+
 .offer-description {
-  text-transform: none;
-  text-align: center;
   font-size: 22px;
   line-height: 26px;
-  font-weight: 400;
 }
-.offer-button {
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 20px;
-  line-height: 36px;
-  font-weight: 700;
-  color: #ffffff;
-  background-color: #756157;
-  text-decoration: none;
-}
+
 .subscribe {
   background-image: url("../images/subscribe-canyon-background.jpg");
-  width: 1200px;
-  height: 414.86px;
-  bottom: 120px
 }
+
 .subscribe-title {
   color: #ffffff;
   text-transform: uppercase;
-  text-align: center;
-  vertical-align: top;
   font-size: 30px;
   line-height: 36px;
-  font-weight: 700;
 }
+
 .subscribe-description {
   color: #ffffff;
-  text-transform: none;
-  text-align: center;
-  vertical-align: top;
   font-size: 22px;
   line-height: 26px;
-  font-weight: 400;
 }
+
 .subscribe-button {
-  color: #ffffff;
   background-color: #82B3D3;
-  text-transform: uppercase;
-  font-size: 20px;
-  line-height: 36px;
-  font-weight: 700;
 }
+
 .footer-phone {
   color: #000000;
   font-size: 40px;
   line-height: 40px;
-  font-weight: 400;
   text-decoration: none;
 }
