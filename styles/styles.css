@@ -1,0 +1,144 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.advantages {
+  text-align: center;
+}
+
+.turism {
+  text-align: center;
+}
+
+.hotel-offers {
+  text-align: center;
+}
+
+.subscribe {
+  text-align: center;
+}
+
+.clear-list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.navigation-link {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+  text-decoration: none;
+}
+
+.button {
+  background-color: #756157;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.navigation-button {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+
+.welcome-unit {
+  background-image: url("../images/canyon-background.jpg");
+  background-repeat: no-repeat;
+  background-color: #204237;
+}
+
+.city-info-title {
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.city-description {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.box-title  {
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.advantages-item-blue {
+  background-color: #82B3D3;
+  color: #ffffff;
+}
+
+.light-grey-box {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-item-grey {
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
+.offer-title {
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.offer-description {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.subscribe {
+  background-image: url("../images/subscribe-canyon-background.jpg");
+}
+
+.subscribe-title {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.subscribe-description {
+  color: #ffffff;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.subscribe-button {
+  background-color: #82B3D3;
+}
+
+.footer-phone {
+  color: #000000;
+  font-size: 40px;
+  line-height: 40px;
+  text-decoration: none;
+}
